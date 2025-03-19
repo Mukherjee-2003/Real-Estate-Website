@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+  color: #222222;
+  font-family: "Philosopher",serif;
+}
+/* -------BANNER CSS---------- */
+.banner {
+    background-image: url("../Images/banner_background.png");
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+  font-family: "Philosopher",serif;
+}
+.second_form select {
+  color: #222222;
+  font-weight: bold;
+  border: none;
+}
+.second_form {
+  width: 50%;
+}
+/* --------------------------------- */
+/* ----------------MOST VIEWED CSS----------------- */
+.mostviewed_dark_text {
+  color: #222222;
+  font-weight: bold;
+}
+.most_viewed {
+  background-image: url("../Images/most_viewded_background.png");
+}
+/* -----------OUR WORK BACKGROUND-------------- */
+.our_work {
+  background-image: url("../Images/our_work_background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* --------AGENTS CSS----------------------- */
+/* -------DISCOVER CSS---------------- */
+.discover_us_div {
+  background-image: url("../Images/discover_us_background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.discover_us h2{
+   color: #fff;
+}
+/* ------------HOVER EFFECTS------------------------- */
+#nav_btn:hover {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  background-color: #000; 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05); 
+}
+#discover_btn:hover {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  background-color: #000; 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05); 
+}
+.btn-dark:hover {
+  background-color: #b33a3a; 
+  transform: scale(1.05);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.second_form button[type="submit"]:hover {
+  background-color: #67bd2e;
+  color: white;
+  transform: translateY(-2px); 
+}
+/* --------FOOTER CSS----------------- */
+.footer_dark {
+  color: #222222;
+}
+#nav_logo:hover {
+  transform: scale(1.05);
+  text-shadow: 0 0 20px #fff;
+  transition: all 0.3s ease;
+}
+.nav-item:hover {
+  transform: scale(1.05);
+  text-shadow: 0 0 20px #fff;
+  transition: all 0.3s ease;
+}
+/* ------------RESPONSIVE SECTION-------------- */
+@media screen and (max-width: 991px) {
+  .second_form {
+    width: 100%;
+  }
+}

@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real Estate Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+  <main>
+    <nav class="navbar navbar-expand-lg position-absolute start-0 end-0" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="#" id="nav_logo"><i class="fa-solid fa-house"></i> Residenti</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Location</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a href="#" class="btn rounded-5 bg-white bg-opacity-25 text-white fw-bold" id="nav_btn">Try Now</a>
+        </div>
+      </div>
+    </nav>
+    <!-- --------BANNER CSS---------------- -->
+    <section class="banner postion-relative">
+      <div class="container text-white d-flex flex-column justify-content-center h-100">
+        <h1 class="fw-bold">Finding Your New <span class="d-block">Home is Simple</span></h1>
+        <p>Find the Place You'll Call Home,Crafted with Care and Elegance.Where Dreams Meet Address,And Living Becomes
+          Extraordinary </p>
+        <form action="#" class="w-50 position-relative">
+          <input type="text" name="search" id="search" placeholder="Search"
+            class="form-control w-100 bg-white text-black bg-opacity-25 rounded-5">
+            <button type="submit" class="btn text-white position-absolute top-0 end-0"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+        <div
+        class="second_form rounded-5 text-secondary bg-body-tertiary translate-middle-x position-absolute top-100 start-0 end-0 mx-auto  border px-2 py-2 z-2 translate-middle-y">
+        <form action="#" class="w-100">
+          <div class="row">
+            <div class="col-md-3 col-6 mt-md-0 mt-3">
+              <label for="city" class="d-inline-flex flex-column">City Street <select name="city" id="city">
+                  <option value="#">123 Street</option>
+                  <option value="01">2</option>
+                  <option value="02">3</option>
+                </select></label>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-3">
+              <label for="rent" class="d-inline-flex flex-column">Typology of Rent <select name="rent" id="rent">
+                  <option value="#">Villa</option>
+                  <option value="03">4</option>
+                  <option value="04">5</option>
+                </select></label>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-3">
+              <label for="rent" class="d-inline-flex flex-column">Price <select name="rent" id="rent">
+                  <option value="#">$960000,00</option>
+                  <option value="05">6</option>
+                  <option value="06">7</option>
+                </select></label>
+            </div>
+            <div class="col-md-3 col-6 mt-md-0 mt-3">
+              <button type="submit" class="rounded-end-circle btn btn-dark  btn-lg"><i
+                  class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      </div>
+    </section>
+    <section class="most_viewed py-md-5 py-5 position-relative">
+      <div class="most_viewed_div container">
+        <p class="fw-bold text-center">---------------------------------------</p>
+        <h2 class="text-center fw-bold display-2">Most Viewed</h2>
+        <p class="text-center mt-md-5 mt-3">Discover homes that capture the essence of modern living, thoughtfully
+          designed to meet your lifestyle needs. From cozy apartments to luxurious villas, explore spaces that combine
+          comfort, elegance, and functionality.</p>
+        <div class="row">
+          <div class="col-md-4 mt-3 mt-md-0">
+            <div class="card bg-body-tertiary" data-aos="fade-right" data-aos-duration="3000">
+              <img src="./Images/most_viewed_1.png" class="card-img-top" alt="Image">
+              <div class="card-body">
+                <p class="d-inline-flex justify-content-between w-100 card-text">123 main street,Anywhere,CA 12345
+                  <span><i class="fa-solid fa-thumbs-up"></i> 1</span> <span><i class="fa-solid fa-cart-shopping"></i>
+                    3</span>
+                </p>
+                <p class="card-text mostviewed_dark_text">Ocean Breeze Villa</p>
+                <p class="card-text mostviewed_dark_text">$960000.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mt-md-0">
+            <div class="card bg-body-tertiary" data-aos="fade-right" data-aos-duration="3000">
+              <img src="./Images/mostviewed_2.png" class="card-img-top" alt="Image">
+              <div class="card-body">
+                <p class="d-inline-flex justify-content-between w-100 card-text">123 main street,Anywhere,CA 12345
+                  <span><i class="fa-solid fa-thumbs-up"></i> 1</span> <span><i class="fa-solid fa-cart-shopping"></i>
+                    3</span>
+                </p>
+                <p class="card-text mostviewed_dark_text">Ocean Breeze Villa</p>
+                <p class="card-text mostviewed_dark_text">$960000.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-3 mt-md-0">
+            <div class="card bg-body-tertiary" data-aos="fade-right" data-aos-duration="3000">
+              <img src="./Images/most_viewed_3.png" class="card-img-top" alt="Image">
+              <div class="card-body">
+                <p class="d-inline-flex justify-content-between w-100 card-text">123 main street,Anywhere,CA 12345
+                  <span><i class="fa-solid fa-thumbs-up"></i> 1</span> <span><i class="fa-solid fa-cart-shopping"></i>
+                    3</span>
+                </p>
+                <p class="card-text mostviewed_dark_text">Ocean Breeze Villa</p>
+                <p class="card-text mostviewed_dark_text">$960000.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="residence_map">
+      <h2 class="text-center fw-bold display-2">Find the most comfortable <span class="d-block">residence near you
+          now</span></h2>
+      <div class="d-flex justify-content-center w-50 mx-auto gap-4 mt-3">
+        <a href="#" class="btn-dark btn rounded-5">Nearest Residence</a>
+        <a href="#" class="btn btn-outline-dark rounded-5">View Property</a>
+      </div>
+      <div class="container-fluid mt-md-5 mt-3">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.0898664098727!2d88.42449271051805!3d22.575741979403954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275eff23edf37%3A0xdc56c0a757ecff53!2sWebskitters%20Academy%20-%20Best%20IT%20Training%20Institute%20in%20Kolkata!5e0!3m2!1sen!2sin!4v1742281671648!5m2!1sen!2sin"
+          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <!-- -----------OUR WORK SECTION--------------------- -->
+    <section class="our_work py-md-5 py-3">
+      <div class="our_work_div container">
+        <h2 class="text-center fw-bold display-3">Our Work In 3 Steps</h2>
+        <p class="text-center mt-md-4 mt-2">Explore Properties Tailored to You,Connect with Experts Who Understand Your
+          Needs,Get Personalized Guidance at Every Step,
+          Find Your Dream Home Effortlessly</p>
+        <div class="row our_work_cardDiv mt-md-5 mt-3">
+          <div class="col-md-4 mt-md-0 mt-3">
+            <div class="card py-4 px-2 rounded-5">
+              <div class="card-body">
+                <div class="d-inline bg-secondary-subtle rounded-5 p-3"><i class="fa-solid fa-house"></i></div>
+                <h5 class="card-title mt-3">Card title</h5>
+                <p class="card-text">Finalize your vacation rental booking with ease and peace of mind.Book now and
+                  enjoy your stay!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-md-0 mt-3">
+            <div class="card py-4 px-2 rounded-5">
+              <div class="card-body">
+                <div class="d-inline bg-secondary-subtle rounded-5 p-3"><i class="fa-solid fa-handshake"></i></div>
+                <h5 class="card-title mt-3">Close the deal</h5>
+                <p class="card-text">Our simple key delivery system makes cheaking into your vacation rental a breeze
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-md-0 mt-3">
+            <div class="card py-4 px-2 rounded-5">
+              <div class="card-body">
+                <div class="d-inline bg-secondary-subtle rounded-5 p-3"><i class="fa-solid fa-key"></i></div>
+                <h5 class="card-title mt-3">Key Delivery</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------OUR WORK SECTION END------------------- -->
+    <!-- ------------AGENTS SECTION----------------------------------- -->
+    <section class="agents pt-md-5 pt-3">
+      <div class="agents_div container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="fw-bold">Get the house in trust by <span>working with our agents</span></h2>
+            <div class="mt-md-4 mt-2">
+              <i class="fa-solid fa-user d-inline-block rounded-5 bg-secondary-subtle p-3 fs-4"></i> <span> With a quick
+                phone call, our agent will visit you at your convenience. They'll handle all the paperwork and
+                formalities, ensuring a smooth and hassle-free process. Enjoy personalized assistance without stepping
+                out of your comfort zone!</span>
+            </div>
+            <div class="mt-md-4 mt-2">
+              <i class="fa-solid fa-tag d-inline-block rounded-5 bg-secondary-subtle p-3 fs-4"></i> <span> The best
+                deals don't wait, and neither should you! That's why we reach out promptly to keep you informed and
+                ensure you never miss an opportunity.</span>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="./Images/agents_pic.png" alt="Image" class="img-fluid" id="agent_image">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------AGENTS SECTION END------------------------ -->
+    <!-- ---------DISCOVER US SECTION-------------------------- -->
+    <section class="discover_us bor">
+      <div class="discover_us_div container rounded-4 py-5 px-md-5 px-3">
+        <div>
+          <h2 class="fw-bold">Discover us in our app</h2>
+          <p class="text-white mt-md-4 mt-2">Experience the future of home searching with our app. Browse properties
+            anytime, anywhere, with ease and convenience. Stay connected with expert guidance at your fingertips. Your
+            journey to finding the perfect home starts here!</p>
+        </div>
+        <div>
+          <img src="./Images/discover_us_apps.png" alt="Image">
+        </div>
+        <a href="#" class="btn bg-body-tertiary text-white bg-opacity-25 rounded-5 mt-4" id="discover_btn">Download</a>
+      </div>
+    </section>
+    <!-- ------------DISCOVER US SECTION END------------------- -->
+  </main>
+  <footer class="py-md-5 py-3">
+    <div class="footer_div container">
+      <div class="row ">
+        <div class="col-lg-4 mt-md-0 mt-3 col-12">
+          <p class="footer_dark fs-3 fw-medium"><i class="fa-solid fa-house"></i> Residenti</p>
+          <p>At Residenti, we specialize in connecting people with their dream homes through innovative, user-friendly
+            solutions. Our mission is to make property buying and selling seamless, personalized, and rewarding for
+            everyone.</p>
+          <div class="w-50 d-flex justify-content-between fs-5"><i class="fa-brands fa-facebook-f"></i> <i
+              class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin"></i><i
+              class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-youtube"></i></div>
+        </div>
+        <div class="col-lg-8 col-12 mt-lg-0 mt-md-5">
+          <div class="row">
+            <div class="col-md-3 mt-md-0 mt-3 col-6">
+              <p class="footer_dark fw-semibold fs-4">Product</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-light">Features</li>
+                <li class="list-group-item list-group-item-light">Pricing</li>
+                <li class="list-group-item list-group-item-light">Case Studies</li>
+                <li class="list-group-item list-group-item-light">Pricing</li>
+                <li class="list-group-item list-group-item-light">Reviews</li>
+              </ul>
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3 col-6">
+              <p class="footer_dark fw-semibold fs-4">Company</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-light">About</li>
+                <li class="list-group-item list-group-item-light">Contact Us</li>
+                <li class="list-group-item list-group-item-light">Career</li>
+                <li class="list-group-item list-group-item-light">Culture</li>
+                <li class="list-group-item list-group-item-light">Blog</li>
+              </ul>
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3 col-6">
+              <p class="footer_dark fw-semibold fs-4">Support</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-light">Getting Started</li>
+                <li class="list-group-item list-group-item-light">Help Center</li>
+                <li class="list-group-item list-group-item-light">Server Status</li>
+                <li class="list-group-item list-group-item-light">Report a Bug</li>
+                <li class="list-group-item list-group-item-light">Chat Support</li>
+              </ul>
+            </div>
+            <div class="col-md-3 mt-md-0 mt-3 col-6">
+              <p class="footer_dark fw-semibold fs-4">Contact Us</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-light"><i class="fa-regular fa-envelope footer_dark"></i> contact@residenci.com</li>
+                <li class="list-group-item list-group-item-light"><i class="fa-solid fa-phone footer_dark"></i> +91 1234567890</li>
+                <li class="list-group-item list-group-item-light"><i class="fa-solid fa-location-dot footer_dark"></i> 794 michels st
+                  San Francisco,94102</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright_div mt-md-4 mt-2 border-top border-3 pt-2 container">
+      <p class="text-center fw-semibold footer_dark">Copyright: Designed by Dhritiman</p>
+    </div>
+  </footer>
+  <!-- -------SCRIPT SECTION------------- -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>
